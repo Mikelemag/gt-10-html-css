@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.container .esquerda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+.container .direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .esquerda h5{
+    color: #EC4B5C;
+    font-size: 50px;
+}
+
+.container .esquerda label {
+    font-weight: bold;
+    font-size: 17px;
+    color: #0f0d0e;
+}
+.container .esquerda input{
+    width: 80%;
+    height: 40px;
+    background-color :#f3f0f0;
+    border: 1px solid #060606;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.container .esquerda input:focus{
+    border: 1px solid #e47a86
+}
+
+.container .esquerda #check{
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+}
+.container .esquerda .opcoes button {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e47a86;
+    color: #0c0c0c;
+    font-weight: bold;
+    transition: all 300ms ease-in-out
+}
+
+.container .esquerda .opcoes button:hover{
+    cursor: pointer;
+    background-color: rgb(248, 245, 245);
+    border: 1px solid #0c0c0c;
+    color: #EC4B5C;
+
+}
+
+.container .esquerda .opcoes a{
+    text-decoration: none;
+    color: #EC4B5C;
+    font-size: 17px;
+}
+
+.container .esquerda .opcoes {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.container .esquerda .termos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.container .esquerda .termos a{
+    text-decoration: none;
+    color: #EC4B5C;
+}
+
+
+
