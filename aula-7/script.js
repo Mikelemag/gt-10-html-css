@@ -52,7 +52,7 @@ function calcular(){
                     <p>Seu IMC</p>
                 </div>
                 <div class="direita">
-                <p>${mensagem}<p/>                
+                <p>${mensagem}</p>                
                 </div>
             </div>
             <div class="linha"></div>
